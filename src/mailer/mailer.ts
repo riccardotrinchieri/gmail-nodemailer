@@ -11,14 +11,6 @@ const GMAIL_CLIENT_ID = process.env.GMAIL_CLIENT_ID;
 const GMAIL_CLIENT_SECRET = process.env.GMAIL_CLIENT_SECRET;
 const GMAIL_REFRESH_TOKEN = process.env.GMAIL_REFRESH_TOKEN;
 
-// console.log(
-//   GMAIL_ACCOUNT,
-//   GMAIL_CLIENT_ID,
-//   GMAIL_CLIENT_SECRET,
-//   GMAIL_REFRESH_TOKEN,
-//   GMAIL_ACCESS_TOKEN
-// );
-
 const oauth2Client = new OAuth2(
   GMAIL_CLIENT_ID,
   GMAIL_CLIENT_SECRET,
